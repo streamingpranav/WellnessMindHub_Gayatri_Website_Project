@@ -52,7 +52,7 @@ const services = [
 
 const galleryImages = [
   {
-    url: "/clinic.png",
+    url: "/modern_consulation_room.png",
     alt: "Modern Clinic Consultation Room",
     caption: "Modern Consultation Room",
   },
@@ -314,7 +314,7 @@ export default function Home() {
                 <div className="absolute top-4 -left-4 w-full h-full bg-gradient-to-br from-navy/5 to-navy/10 rounded-[3rem] -z-10 rotate-3 transition-transform duration-700 hover:rotate-6 border border-slate-200"></div>
                 <div className="absolute -bottom-4 right-4 w-full h-full bg-healing-green/10 rounded-[3rem] -z-10 -rotate-2"></div>
                 <img
-                  src="/gayatri.png"
+                  src="/Gayatri_Gajjam.png"
                   alt="Gayatri Gajjam"
                   className="w-full rounded-[3rem] shadow-2xl relative z-10 object-cover aspect-[4/5] filter sepia-[0.05] contrast-[1.05]"
                 />
