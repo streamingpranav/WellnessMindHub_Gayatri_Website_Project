@@ -537,7 +537,7 @@ export default function About() {
                   className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-xl group border-[6px] border-slate-50 bg-white"
                 >
                   <img
-                    src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1000"
+                    src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=1000"
                     alt="Clinic Interior"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
