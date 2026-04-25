@@ -37,7 +37,7 @@ const services = [
     link: "/physiotherapy",
     bg: "bg-green-50",
     heroImg:
-      "https://images.unsplash.com/photo-1576091160399-2d20b8e25dec?auto=format&fit=crop&q=80&w=1000",
+      "/physiotherapy.png",
   },
   {
     title: "Integrated Care",
