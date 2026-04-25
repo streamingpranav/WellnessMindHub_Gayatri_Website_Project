@@ -207,7 +207,7 @@ export default function Physiotherapy() {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-healing-green/30 to-teal-400/30 rounded-[3rem] blur-2xl -z-10 animate-pulse"></div>
             <img
-              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=2000"
+              src="/Physiotherapy_Care.png"
               alt="Professional Physiotherapy Care"
               className="w-full h-full object-cover rounded-[3rem] shadow-2xl relative z-10"
             />

@@ -57,7 +57,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-navy/5 rounded-[2.5rem] rotate-3 transition-transform duration-500 group-hover:rotate-6 -z-10 border border-slate-200"></div>
                 <div className="absolute inset-0 bg-healing-green/10 rounded-[2.5rem] -rotate-3 transition-transform duration-500 group-hover:-rotate-6 -z-10"></div>
                 <img
-                  src="/gayatri_gajjam.png"
+                  src="/Gayatri_Gajjam.png"
                   alt="Gayatri Gajjam"
                   className="w-full aspect-[4/5] object-cover rounded-[2.5rem] shadow-2xl filter sepia-[0.05] contrast-[1.05]"
                 />

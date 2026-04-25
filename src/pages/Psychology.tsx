@@ -89,7 +89,7 @@ export default function Psychology() {
             <div className="absolute inset-0 bg-gradient-to-br from-healing-green to-teal-400 rounded-full blur-3xl opacity-20 -z-10 animate-pulse"></div>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-[radial-gradient(circle_at_center,theme(colors.blue.100)_0%,transparent_70%)] opacity-50 -z-20"></div>
             <img
-              src="https://images.unsplash.com/photo-1544027993-37db1946059c?auto=format&fit=crop&q=80&w=1000"
+              src="/Psychology_main.png"
               alt="A calming therapeutic environment"
               className="w-full h-full object-cover rounded-[4rem] shadow-[0_30px_60px_rgba(0,0,0,0.1)] relative z-10 border-[12px] border-white"
             />

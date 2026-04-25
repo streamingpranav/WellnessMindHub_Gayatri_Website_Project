@@ -137,7 +137,7 @@ export default function Header() {
         <nav className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 group">
             <img
-              src="/wellnessmind_hub_logo.png"
+              src="/WellnessMind Hub Logo.png"
               alt="WellnessMind Hub Logo"
               className="h-10 md:h-12 w-auto"
             />
