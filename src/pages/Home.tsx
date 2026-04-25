@@ -46,7 +46,7 @@ const services = [
     link: "/integrated-care",
     bg: "bg-rose-50",
     heroImg:
-      "https://images.unsplash.com/photo-1551847677-dc82d764e1eb?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=2000",
   },
 ];
 
