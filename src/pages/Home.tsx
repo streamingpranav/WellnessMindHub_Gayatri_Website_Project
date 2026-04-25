@@ -28,7 +28,7 @@ const services = [
     link: "/psychology",
     bg: "bg-blue-50",
     heroImg:
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=1000",
+      "/psychology.png",
   },
   {
     title: "Physiotherapy",
