@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-navy: #0F2A44;
+  --color-healing-green: #6BBF59;
+  --color-soft-grey: #F8FAFC;
+  
+  --animate-float: float 3s ease-in-out infinite;
+  --animate-infinite-scroll: infinite-scroll 40s linear infinite;
+}
+
+@keyframes infinite-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans text-navy bg-[#F4F7F9];
+}
+
+.glass {
+  @apply backdrop-blur-lg bg-white/60 border border-white/40;
+}
+
+.frosted-card {
+  @apply bg-white/40 backdrop-blur-md border border-white/60 shadow-sm transition-all duration-300 hover:shadow-xl;
+}
+
+.frosted-dark {
+  @apply bg-navy/80 backdrop-blur-xl border border-white/10;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-linear-to-r from-navy to-healing-green;
+}
+
+.gradient-bg {
+  @apply bg-linear-to-r from-[#0F2A44] to-[#1e4a77];
+}
+
+.btn-primary {
+  @apply px-8 py-3 rounded-full font-bold transition-all duration-300 hover:shadow-xl active:scale-95 bg-navy text-white hover:bg-navy/90 shadow-md;
+}
+
+.btn-gradient {
+  @apply px-8 py-4 rounded-2xl font-bold transition-all duration-300 bg-gradient-to-r from-navy to-[#1e4a77] text-white shadow-xl hover:shadow-2xl active:scale-95;
+}
+
+.btn-secondary {
+  @apply px-8 py-3 rounded-full font-bold transition-all duration-300 hover:shadow-lg active:scale-95 bg-white/80 text-navy border border-white/40 backdrop-blur-sm hover:bg-white;
+}
+
+.btn-whatsapp {
+  @apply px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:shadow-lg active:scale-95 bg-[#25D366] text-white hover:bg-[#128C7E];
+}
